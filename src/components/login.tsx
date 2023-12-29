@@ -1,8 +1,7 @@
-import React from "react";
 import { useFormik } from "formik";
 import useAxios from "@/hooks/useAxios";
 import { LocalStorageEnum, RoutePaths } from "@/constants/enum";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 export default function Login() {
   const { postWithoutAuth } = useAxios();
   const navigate = useNavigate();

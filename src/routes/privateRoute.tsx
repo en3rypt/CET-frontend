@@ -1,4 +1,3 @@
-import React, { ReactNode } from "react";
 import { Navigate } from "react-router-dom";
 import { isAuthenticated } from "../utils/utils";
 import { RoutePaths } from "../constants/enum";

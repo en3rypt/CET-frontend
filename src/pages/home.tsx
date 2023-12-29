@@ -6,7 +6,6 @@ import {
   Button,
   Dialog,
   DialogBody,
-  DialogFooter,
   DialogHeader,
   Input,
   Textarea,
